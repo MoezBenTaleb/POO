@@ -26,7 +26,7 @@ public class Bateau{
     }
 
      public int getPositionX() {
-      return this.positionX;
+      return positionX;
     }
 
     public void setPositionX(int positionX) {
@@ -34,7 +34,7 @@ public class Bateau{
     }
 
      public int getPositionY() {
-      return this.positionY;
+      return positionY;
     }
 
     public void setPositionY(int positionY) {
@@ -44,7 +44,7 @@ public class Bateau{
   
 
      public Coque getCoque() {
-      return this.coque;
+      return coque;
     }
 
     public void setCoque(Coque coque) {
@@ -52,7 +52,7 @@ public class Bateau{
     }
 
      public Cabine getCabine() {
-      return this.cabine;
+      return cabine;
     }
 
     public void setCabine(Cabine cabine) {
@@ -60,7 +60,7 @@ public class Bateau{
     }
 
      public Pont getPont() {
-      return this.pont;
+      return pont;
     }
 
     public void setPont(Pont pont) {
@@ -68,7 +68,7 @@ public class Bateau{
     }
 
     public int getID() {
-      return this.ID;
+      return ID;
     }
 
    public void deplacer(int positionX, int positionY){
@@ -80,15 +80,8 @@ public class Bateau{
 
 
      public String toString() {
-      return "Le bateau n°" + this.ID + " est constitué de:\n" + this.coque + "\n" + this.cabine + "\n" + this.pont;
+      return "Le bateau numero " + this.ID + " est constitue de:\n" + this.coque + "\n" + this.cabine + "\n" + this.pont;
     }
     
     
     }
-   
-   
- 
-
-
-
- 
