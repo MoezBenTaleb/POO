@@ -23,7 +23,7 @@ public class Pont{
     }
 
     public float getLongueur() {
-      return this.longueur;
+      return longueur;
     }
 
     public void setLongueur(float longueur) {
@@ -31,7 +31,7 @@ public class Pont{
     }
 
     public float getLargeur() {
-      return this.largeur;
+      return largeur;
     }
 
     public void setLargeur(float largeur) {
@@ -39,7 +39,7 @@ public class Pont{
     }
 
     public Voile getVoile() {
-      return this.voile;
+      return voile;
     }
 
     public void setVoile(Voile voile) {
@@ -47,11 +47,11 @@ public class Pont{
     }
 
     public int getID() {
-      return this.ID;
+      return ID;
     }
 
     
-   public float getSurface (){
+   public float calculerSurface (){
       
      
      return this.longueur * this.largeur;
@@ -60,7 +60,7 @@ public class Pont{
 
 
     public String toString() {
-      return "Le pont n°" + this.ID + " est constitué de la Voile n°" + this.voile.getID();
+      return "Le pont numero " + this.ID + " est constitue de la Voile numero " + this.voile.getID();
     }
     
    } 
