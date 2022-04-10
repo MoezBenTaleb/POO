@@ -17,12 +17,12 @@ public class Cabine{
    public Cabine(int surface, int volant){
 
       this.surface = surface;
-        this.volant = volant;
+      this.volant = volant;
       
     }
 
      public int getSurface() {
-      return this.surface;
+      return surface;
     }
 
     public void setSurface(int surface) {
@@ -30,7 +30,7 @@ public class Cabine{
     }
 
      public int getVolant() {
-      return this.volant;
+      return volant;
     }
 
     public void setVolant(int volant) {
@@ -53,7 +53,7 @@ public class Cabine{
     }
 
     public String toString() {
-      return "La cabine n°" +     this.ID;
+      return "La cabine numero "+this.ID;
     }
    }
    
