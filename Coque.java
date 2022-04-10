@@ -21,7 +21,23 @@ public class Coque {
 
   public boolean couler(){
    
-   return (false);
+   return false;
+   }
+
+ public int getEpaisseur(){
+   return epaisseur;
+   }
+
+ public void setEpaisseur(int epaisseur){
+    this.epaisseur = epaisseur;
+   }
+
+ public boolean getEtancheite(){
+   return etancheite;
+   }
+
+ public void setEtancheite(boolean etancheite){
+    this.etancheite = etancheite;
    }
 
    public int getID() {
@@ -29,7 +45,7 @@ public class Coque {
     }
 
     public String toString() {
-      return "Le coque n°" + this.ID;
+      return "Le coque numero " + this.ID;
     }
 
 
